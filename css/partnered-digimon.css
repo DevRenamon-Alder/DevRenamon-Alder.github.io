@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(../img/blue-grid-backg.jpg);
+    background-size: cover;
+}
+
+a, a::after {
+    color: hsl(17, 78%, 32%);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#window {
+    background-color: hsl(60, 10%, 85%);
+    border: groove hsl(250, 41%, 49%) 5px;
+    color: hsl(250, 65%, 30%);
+    font-family: 'Courier New', Courier, monospace;
+    height: 700px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome {
+    background-color: mediumslateblue;
+    border-bottom: solid hsl(250, 65%, 30%) 3px;
+    color: white;
+}
+
+/* Header */
+nav ul {
+    display: table;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    border-bottom: solid hsl(250, 65%, 30%) 3px;
+    display: table-cell;
+    padding: 0 10px 0 5px;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.location {
+    background-color: white;
+    border: solid black 1px;
+    color: black;
+    float: right;
+    font-size: 12px;
+    height: 14px;
+    width: 530px;
+    margin-top: 2px;
+    margin-right: 400px;
+    padding-left: 2px;
+}
+
+.logo {
+    float: left;
+    margin: 2px;
+}
+
+#location-border {
+    background-color: hsl(60, 10%, 81.3%);
+    border-bottom: solid hsl(250, 65%, 30%) 2px;
+    height: 20px;
+}
+
+#button {
+    height: 40px;
+    position: relative;
+    right: 20px;
+}
+
+/* Main */
+
+main {
+    background-color: hsl(60, 9%, 77%);
+    border-bottom: groove hsl(250, 41%, 49%) 5px;
+    padding-top: 10%;
+    text-align: center;
+    height: 580px;
+}
+
+#page-content {
+    border: groove 5px hsl(250, 41%, 49%);
+    background-color: hsl(60, 7%, 75%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    position: relative;
+    bottom: 100px;
+    height: 560px;
+    width: 1070px;
+}
