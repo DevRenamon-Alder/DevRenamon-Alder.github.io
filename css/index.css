@@ -20,7 +20,7 @@ a, a::after {
     border: groove hsl(250, 41%, 49%) 5px;
     color: hsl(250, 65%, 30%);
     font-family: 'Courier New', Courier, monospace;
-    height: 700px;
+    height: 80%;
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -100,12 +100,17 @@ strong {
     font-weight: bolder;
 }
 
+.page-header {
+    font-size: 28px;
+}
+
 .disclaimer {
     border: groove 5px hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
+    font-size: .95em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding: 10px;
     width: 510px;
 }
@@ -118,8 +123,10 @@ strong {
 .about-us {
     border: groove 5px hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
+    font-size: .95em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5px;
     padding: 10px;
     width: 510px;
 }
@@ -128,9 +135,25 @@ strong {
     color: hsl(17, 78%, 32%);
 }
 
+.patreon-link {
+    border: groove 5px hsl(250, 41%, 49%);
+    background-color: hsl(60, 10%, 85%);
+    font-size: .95em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 10px;
+    width: 510px;
+}
+
+.center-patreon {
+    text-align: center;
+}
+
 .news-1 {
     border: groove 5px hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
+    font-size: .95em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -141,6 +164,7 @@ strong {
 .staff {
     border: groove 5px hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
+    font-size: .95em;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -160,7 +184,7 @@ strong {
     padding: 5px;
     position: relative;
     bottom: 100px;
-    height: 540px;
+    height: 560px;
     width: 950px;
 }
 
