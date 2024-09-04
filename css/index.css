@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url(../img/blue-grid-backg.jpg);
+    background-image: url("../img/blue-grid-backg.jpg");
     background-size: cover;
 }
 

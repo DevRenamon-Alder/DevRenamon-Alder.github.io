@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url(../img/blue-grid-backg.jpg);
+    background-image: url("../img/blue-grid-backg.jpg");
     background-size: cover;
 }
 
@@ -105,6 +105,10 @@ form {
     height: 40px;
     width: 250px;
     margin-top: 10px;
+}
+
+.beta-message {
+    font-weight: bolder;
 }
 
 .submit {

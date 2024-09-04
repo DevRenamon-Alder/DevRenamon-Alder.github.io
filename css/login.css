@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url(../img/blue-grid-backg.jpg);
+    background-image: url("../img/blue-grid-backg.jpg");
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@ form {
     display: inline-block;
 }
 
-.username, .password, .server-id {
+.username, .password, .user-id {
     display: block;
     height: 40px;
     width: 250px;
@@ -108,7 +108,7 @@ form {
 }
 
 /*
-.server-id {
+.user-id {
     display: hidden;
 }
 */
@@ -122,6 +122,10 @@ form {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.beta-message {
+    font-weight: bolder;
 }
 
 #page-content {

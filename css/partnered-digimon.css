@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url(../img/blue-grid-backg.jpg);
+    background-image: url("../img/blue-grid-backg.jpg");
     background-size: cover;
 }
 
@@ -88,6 +88,14 @@ main {
     padding-top: 10%;
     text-align: center;
     height: 580px;
+}
+
+.coming-soon {
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40%;
 }
 
 #page-content {
