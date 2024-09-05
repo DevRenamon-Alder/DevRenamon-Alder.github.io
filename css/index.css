@@ -20,8 +20,8 @@ a, a::after {
     border: groove hsl(250, 41%, 49%) 5px;
     color: hsl(250, 65%, 30%);
     font-family: 'Courier New', Courier, monospace;
-    height: 80%;
-    width: 1100px;
+    height: 90%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,7 +42,7 @@ nav ul {
 nav li {
     border-bottom: solid hsl(250, 65%, 30%) 3px;
     display: table-cell;
-    padding: 0 10px 0 5px;
+    padding: 0 .1em 0 .05em;
     vertical-align: middle;
 }
 
@@ -52,47 +52,45 @@ img {
 
 .location {
     background-color: white;
-    border: solid black 1px;
+    border: solid black .01em;
     color: black;
     float: right;
-    font-size: 12px;
-    height: 14px;
-    width: 530px;
-    margin-top: 2px;
-    margin-right: 400px;
-    padding-left: 2px;
+    font-size: .75em;
+    height: 1.1em;
+    width: 50%;
+    margin-top: .2em;
+    margin-right: 30%;
+    padding-left: .2em;
 }
 
 .logo {
     float: left;
-    margin: 2px;
+    margin: .2em;
 }
 
 #location-border {
     background-color: hsl(60, 10%, 81.3%);
     border-bottom: solid hsl(250, 65%, 30%) 2px;
-    height: 20px;
+    height: 1.2em;
 }
 
 #button {
-    height: 40px;
+    height: 4em;
     position: relative;
-    right: 20px;
+    right: 2.5em;
 }
 
 /* Main */
 
 main {
     background-color: hsl(60, 9%, 77%);
-    border-bottom: groove hsl(250, 41%, 49%) 5px;
     padding-top: 10%;
     text-align: center;
-    height: 580px;
+    height: 38em;
 }
 
 h1 {
-    font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: .25em;
 }
 
 strong {
@@ -101,18 +99,18 @@ strong {
 }
 
 .page-header {
-    font-size: 28px;
+    font-size: 1.8em;
 }
 
 .disclaimer {
-    border: groove 5px hsl(250, 41%, 49%);
+    border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
     font-size: .95em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
-    padding: 10px;
-    width: 510px;
+    margin-bottom: .35em;
+    padding: .65em;
+    width: 33.5em;
 }
 
 .support-official {
@@ -121,14 +119,14 @@ strong {
 }
 
 .about-us {
-    border: groove 5px hsl(250, 41%, 49%);
+    border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
     font-size: .95em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
-    padding: 10px;
-    width: 510px;
+    margin-bottom: .35em;
+    padding: .65em;
+    width: 33.5em;
 }
 
 .about-link {
@@ -136,14 +134,14 @@ strong {
 }
 
 .patreon-link {
-    border: groove 5px hsl(250, 41%, 49%);
+    border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
     font-size: .95em;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 10px;
-    width: 510px;
+    padding: .65em;
+    width: 33.5em;
 }
 
 .center-patreon {
@@ -151,24 +149,24 @@ strong {
 }
 
 .news-1 {
-    border: groove 5px hsl(250, 41%, 49%);
+    border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
     font-size: .95em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 400px;
+    margin-bottom: .65em;
+    padding: .65em;
+    width: 26.5em;
 }
 
 .staff {
-    border: groove 5px hsl(250, 41%, 49%);
+    border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
     font-size: .95em;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-    width: 400px;
+    padding: .65em;
+    width: 26.5em;
     text-align: left;
 }
 
@@ -181,11 +179,11 @@ strong {
     background-color: hsl(60, 7%, 75%);
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: .5em;
     position: relative;
-    bottom: 100px;
-    height: 560px;
-    width: 950px;
+    bottom: 6.25em;
+    height: 36em;
+    width: 65em;
 }
 
 #left-side {
