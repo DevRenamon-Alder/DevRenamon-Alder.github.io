@@ -105,7 +105,7 @@ strong {
 .disclaimer {
     border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
-    font-size: .95em;
+    font-size: .937em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .35em;
@@ -121,7 +121,7 @@ strong {
 .about-us {
     border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
-    font-size: .95em;
+    font-size: .937em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .35em;
@@ -136,7 +136,7 @@ strong {
 .patreon-link {
     border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
-    font-size: .95em;
+    font-size: .937em;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -151,7 +151,7 @@ strong {
 .news-1 {
     border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
-    font-size: .95em;
+    font-size: .937em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .65em;
@@ -162,7 +162,7 @@ strong {
 .staff {
     border: groove .35em hsl(250, 41%, 49%);
     background-color: hsl(60, 10%, 85%);
-    font-size: .95em;
+    font-size: .937em;
     margin-left: auto;
     margin-right: auto;
     padding: .65em;
@@ -182,8 +182,8 @@ strong {
     padding: .5em;
     position: relative;
     bottom: 6.25em;
-    height: 36em;
-    width: 65em;
+    height: 36.5em;
+    width: 62.5em;
 }
 
 #left-side {
