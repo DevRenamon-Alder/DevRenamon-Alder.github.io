@@ -1,1 +1,1 @@
-To add later.
+This will eventually be a Digimon themed pet simulator comparable to Neopets or Flight Rising. Its still in development though and likely will be for awhile. You can find the website at digimondigitalweb.com
